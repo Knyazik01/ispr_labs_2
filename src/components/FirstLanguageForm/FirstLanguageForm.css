@@ -32,6 +32,10 @@ button {
     text-align: center;
 }
 
+.result pre {
+    white-space: break-spaces;
+}
+
 .retry {
     background-color: #2b4ef8;
     color: white;

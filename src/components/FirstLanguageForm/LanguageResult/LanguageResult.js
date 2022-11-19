@@ -7,7 +7,7 @@ const LanguageResult = ({
   <div className='result'>
     <img className='logo' src={logo} alt={name}/>
     <h2>{name}</h2>
-    <p>{description}</p>
+    <pre>{description}</pre>
     <button
       type='button'
       onClick={handeReset}
